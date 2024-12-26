@@ -56,6 +56,8 @@
     width: 92%;
     font-size: 0.8rem;
     overflow-y: auto;
+    height: 100%;
+    text-wrap: wrap;
 }
 
 .main_base_card_buttons {

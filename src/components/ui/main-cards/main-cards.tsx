@@ -95,7 +95,7 @@ export const MainCardsUI: FC<TCard> = ({
               />
             ) : (
               <p className={styles.main_base_card_text_p}>
-                <pre>{editedText}</pre>
+                {editedText}
               </p>
             )}
           </div>
