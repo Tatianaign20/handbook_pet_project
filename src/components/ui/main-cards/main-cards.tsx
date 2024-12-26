@@ -94,9 +94,7 @@ export const MainCardsUI: FC<TCard> = ({
                 onChange={(e) => setEditedText(e.target.value)}
               />
             ) : (
-              <p className={styles.main_base_card_text_p}>
-                {editedText}
-              </p>
+              <p className={styles.main_base_card_text_p}>{editedText}</p>
             )}
           </div>
           {isAuthenticated && (
